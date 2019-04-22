@@ -9,6 +9,10 @@ function createControllers(controllerConfigs) {
         return {
             pageReady: function ($w, wixScoped) {
                 console.log('wixscopedAPI', wixScoped)
+                wixScoped.events.setStaticEventHandlers({'button1_click':() => {
+	//Add your code for this event here:
+	$w('#button1').label = 'static click' 
+}},'c1dmp')
             }
         };
     });
