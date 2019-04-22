@@ -1,4 +1,4 @@
-    'use strict';
+'use strict';
 
 function getAppManifest() {
     return {};
@@ -110,7 +110,7 @@ async function createController(editorSDK, appToken, pageRef) {
 async function install(editorSDK, appDefinitionId){
     const pageRef = await editorSDK.pages.getCurrent()
     const controllerRef = await createController(editorSDK, appDefinitionId, pageRef)
-    await addButton(editorSDK, appDefinitionId,controllerRef, pageRef, 'buttonRole1')
+    await addButton(editorSDK, appDefinitionId,controllerRef, pageRef, 'button1')
 }
 
 async function editorReady(editorSDK, appDefinitionId, options) {
