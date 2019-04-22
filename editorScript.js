@@ -19,7 +19,7 @@ const CONTROLLER_COMP_DEF = {
     componentType: 'platform.components.AppController',
     data: {
         type: 'AppController',
-        applicationId: '152c9564-8d2a-cfa4-c8ed-ca343ac9c0ed',
+        applicationId: '19ea498b-7a4a-46c1-b913-56c5581c7930',
         name: 'mockController',
         controllerType: 'mockController'
     },
